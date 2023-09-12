@@ -23,8 +23,8 @@ public class alert2 {
 			System.out.println(b);
 		}
 		String text = alert2.getText();
-		System.out.println(text);
-		alert2.click();
+		//System.out.println(text);
+		//alert2.click();
 		
 		Thread.sleep(4000);
 		System.out.println(driver.switchTo().alert().getText());
